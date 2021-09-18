@@ -1,5 +1,4 @@
-<!--<!DOCTYPE html>
-
+<!DOCTYPE html>
 <html>
 {% load static %}
 
@@ -15,24 +14,24 @@
     <div class="wrapper fadeInDown">
         <div id="formContent">
             <!-- Tabs Titles -->
-            <!--<h2 class="active"> Sign Up </h2>
+            <h2 class="active"> Sign Up </h2>
 
             <!-- Icon -->
-            <!--<div class="fadeIn first">
+            <div class="fadeIn first">
                 <i class="fa fa-sign-in fa-2x" aria-hidden="true"></i>
             </div>
 
             <!-- Login Form -->
-           <!-- <form action="#" method="POST">
+            <form action="#" method="POST">
                     {% csrf_token %}
                 {% if messages %}
                     <div class="col-lg-12 color03 ">
                         <!-- <ul class="messages align-content"> -->
-                       <!--     {% for message in messages %}
+                            {% for message in messages %}
                                 <div{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</div>
                             {% endfor %}
                         <!-- </ul> -->
-                 <!--   </div>
+                    </div>
                 {% endif %}
                 {{form.username}}
                                 {{form.email}}
@@ -43,26 +42,25 @@
 <!--                <input type="email" id="email" class="fadeIn second" name="email" placeholder="Email">-->
 <!--                <input type="text" id="address" class="fadeIn second" name="address" placeholder="Address">-->
 <!--                <input type="text" id="password" class="fadeIn third" name="password" placeholder="Password">-->
- <!--               <div class="form-group fadeIn third">
+                <div class="form-group fadeIn third">
                     <select class="sign-up-usertype" name="userType" id="id_userType">
                         <option disabled selected>Select</option>
 <!--                        <option value="1">Superuser</option>-->
- <!--                       <option value="2">Admin</option>
+                        <option value="2">Admin</option>
 <!--                        <option value="3">Manager</option>-->
-<!--                    </select>
+                    </select>
                 </div>
                 <input type="submit" class="fadeIn fourth" value="Sign In">
 
             </form>
 
             <!-- Remind Passowrd -->
-           <!-- <div id="formFooter">
+            <div id="formFooter">
                 <a class="underlineHover" href="{% url 'login' %}">Log In</a>
-            </div>-->
+            </div>
 
         </div>
     </div>
 </body>
 
 </html>
-
